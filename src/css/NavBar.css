@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #000000;
+  background-color: #aec6cf;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -12,6 +12,11 @@
   font-weight: bold;
 }
 
+.nav-brand {
+  color: black;
+  font-weight: 700;
+}
+
 .navbar-links {
   display: flex;
   gap: 2rem;
@@ -22,6 +27,8 @@
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
+  color: black;
+  font-weight: 700;
 }
 
 .nav-link:hover {
